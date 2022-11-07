@@ -70,4 +70,18 @@ int main()
     return 0;
 }
 
+// python代码
+def collatz_conjecture(number):
+    while number != 1:
+        if number % 2 == 0:
+            # 偶数
+            number /= 2
+            print(number)
+        elif number % 2 == 1:
+            # 奇数
+            number = number * 3 + 1
+            print(number)
+
+collatz_conjecture(6)
+
 
