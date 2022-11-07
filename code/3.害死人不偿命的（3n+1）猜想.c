@@ -84,4 +84,28 @@ def collatz_conjecture(number):
 
 collatz_conjecture(6)
 
+//  Java代码
+             import java.util.Scanner;
+ 
+/*
+ * 给定的任一不超过 1000 的正整数 n，简单地数一下，需要多少步（砍几下）才能得到 n=1？
+ */
+public class Callatz {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int number = sc.nextInt();
+		int counts = 0;
+		while (number != 1) {
+			if (number % 2 == 0) {
+				number /= 2;
+				counts++;
+			} else {
+				number = (number * 3 + 1) / 2;
+				counts++;
+			}
+		}
+		System.out.println(counts);
+		sc.close();
+	}
+}
 
