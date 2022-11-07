@@ -24,7 +24,8 @@
 // 循环体内判断数字为偶数还是奇数，然后进行对应的运算。并且设置flag++，用于计算步数。
 //     ————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-    
+//  C语言:
+ 
 void Pat_B1001() {
     int n, step = 0;
     scanf("%d", &n);
@@ -35,3 +36,38 @@ void Pat_B1001() {
     }
     printf("%d\n", step);
 }
+// C++
+#include "iostream"
+using namespace std;
+int flag=0; //用于计算步数
+int num_in; //用于存储输入的数字
+int num_out; //用于存储输出的数字
+int main()
+{
+    cout<<"                 "<<"************卡拉兹猜想***************"<<endl;
+    cout<<endl;
+    cout<<"输入任一自然数(大于0的整数）:";
+    cin>>num_in;
+    if(num_in<0)
+    {
+        cout<<"输入错误！退出程序";
+        return 0;
+    }
+    while(num_in!=1)
+    {
+        if(num_in%2==0)  //若输入数为偶数，则除以2之后的余数为0
+        {
+            num_in=num_in/2;
+        }
+        else            //输入数为奇数
+        {
+            num_in=(num_in*3+1)/2;
+        }
+        flag++;
+    }
+    cout<<endl;
+    cout<<"输入数字使用卡拉兹猜想计算得到1，需要"<<flag<<"步";
+    return 0;
+}
+
+
