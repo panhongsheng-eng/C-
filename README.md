@@ -4,5 +4,5 @@
 <p>---------------------------------------------------------------------------------------------------------------------------------------------------</p>
 <p align = "center">
 <a href="https://github.com/panhongsheng-eng/C-/blob/main/code/3.%E5%AE%B3%E6%AD%BB%E4%BA%BA%E4%B8%8D%E5%81%BF%E5%91%BD%E7%9A%84%EF%BC%883n%2B1%EF%BC%89%E7%8C%9C%E6%83%B3.c">1.入门篇-害死人不偿命的（3n+1）猜想</a>
-  </br><a href="https://github.com/panhongsheng-eng/C-/blob/main/code/3.%E5%AE%B3%E6%AD%BB%E4%BA%BA%E4%B8%8D%E5%81%BF%E5%91%BD%E7%9A%84%EF%BC%883n%2B1%EF%BC%89%E7%8C%9C%E6%83%B3.c">2.入门篇-挖掘机技术哪家强！</a>
+  </br><a href="https://github.com/panhongsheng-eng/C-/blob/main/code/4.%E6%8C%96%E6%8E%98%E6%9C%BA%E6%8A%80%E6%9C%AF%E5%93%AA%E5%AE%B6%E5%BC%BA.c">2.入门篇-挖掘机技术哪家强！</a>
   </p>
